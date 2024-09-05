@@ -27,9 +27,14 @@ h1{
 
 button{
   margin-top: 20px;
-  background-color: #258cfb;
+  background-color: #329166;
   color: #fff;
   border-radius: 15px;
   width: 300px;
   height: 50px;
+}
+
+a{
+  color: #003c80;
+  text-decoration: none;
 }

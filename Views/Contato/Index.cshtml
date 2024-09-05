@@ -1,5 +1,7 @@
 @model IEnumerable<Agenda.Models.Contato>
 
+<link rel="stylesheet" href="~/css/test.css" asp-append-version="true"/>
+
 @{
     ViewData["Title"] = "Index";
 }
@@ -8,10 +10,7 @@
 
 <div> 
     <p>
-        <a asp-action="Create">Adicionar um novo contato</a>
-    </p>
-    <p>
-        <a asp-action="Busca">Procurar um contato</a>
+        <a class="hh" asp-action="Create">Adicionar um novo contato</a> - <a class="hh" asp-action="Busca">Procurar um contato</a>
     </p>
 </div>
 
@@ -44,7 +43,7 @@
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Mostrar</a> |
+                <!-- <a asp-action="Details" asp-route-id="@item.Id">Mostrar</a> |-->
                 <a asp-action="Delete" asp-route-id="@item.Id">Deletar</a>
             </td>
         </tr>

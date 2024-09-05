@@ -1,12 +1,13 @@
 @model Agenda.Models.Contato
 
+<link rel="stylesheet" href="~/css/test.css" asp-append-version="true"/>
+
 @{
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Adicionar contato</h1>
 
-<h4>Contato</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -28,13 +29,11 @@
                 <span asp-validation-for="Telefone" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Adicionar" class="btn btn-primary"/>
             </div>
         </form>
+        <a class="tt" asp-action="Index"><button class="ti">Voltar</button></a>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 

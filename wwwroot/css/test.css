@@ -1,0 +1,45 @@
+﻿a{
+    color: #329166;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dog{
+    margin-top: 65px;
+    margin-bottom: -5px;
+}
+
+h1{
+    margin-top: 25px;
+}
+
+input.btn.btn-primary{
+    margin-top: 10px;
+    width: 93.02px;
+    height: 38px;
+}
+
+input.btn.btn-danger{
+    width: 93.02px;
+    height: 38px;
+}
+
+.tt{
+    margin-top: 10px;
+    color: #fff;
+    font-weight: inherit;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ti{
+    margin-top: 12px;
+    width: 93.02px;
+    height: 38px;
+    border-radius: 5px;
+    border: 0px solid #258cfb;
+    background-color: #0d6efd;
+}
+
+
